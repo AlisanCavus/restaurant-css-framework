@@ -5,3 +5,11 @@
   .navbar-light .navbar-toggler-icon {
     background-image: url(/images/chopsticks.svg);
   }
+
+  .bg-info {
+    background-color: #f24236 !important;
+  }
+
+  .nav-item { 
+    text-align: right;
+  }

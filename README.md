@@ -10,3 +10,6 @@ ramen image is downloaded from: https://www.pexels.com/photo/pouring-broth-from-
 
 sushi image is downloaded from: https://www.pexels.com/photo/fish-sushi-1108104/
 
+Color Palette :https://coolors.co/565554-2e86ab-f6f5ae-f5f749-f24236
+
+Homepage footage is downloaded from: https://www.pexels.com/video/food-cooking-outdoors-indoors-9332703/ (Video by 宇航 钱 from Pexels)
