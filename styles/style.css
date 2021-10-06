@@ -1,15 +1,43 @@
 .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, 0.55);
     border-color: rgba(0, 0, 0, 0.1);
-  }
-  .navbar-light .navbar-toggler-icon {
+}
+.navbar-light .navbar-toggler-icon {
     background-image: url(/images/chopsticks.svg);
-  }
+}
 
-  .bg-info {
+.bg-info {
     background-color: #f24236 !important;
-  }
+}
 
-  .nav-item { 
+.nav-item { 
     text-align: right;
-  }
+}
+
+.jumbotron{
+    position: relative;
+    overflow: hidden;
+    height: 90vh;
+    background-image: linear-gradient(180deg, rgba(242,66,54,0.3), rgba(245,247,73,0.2));
+}
+
+.container-sm {
+    position: relative;
+    color: #cee0e7;
+    z-index: 2;
+}
+
+#video-background{ 
+  position: absolute;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  z-index: -1;
+}
+
+
