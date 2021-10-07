@@ -90,3 +90,8 @@ section {
   background-color: transparent !important;
   border: none !important;
 }
+
+.pricetag { 
+  float:right;
+  font-weight: bolder;
+}
