@@ -14,8 +14,6 @@ Color Palette :https://coolors.co/565554-2e86ab-f6f5ae-f5f749-f24236
 
 Homepage footage is downloaded from: https://www.pexels.com/video/salmon-in-a-pan-with-a-bit-of-water-3296399/ (Video by cottonbro from Pexels)
 
-Thailand Flag is downloaded from : https://www.countryflags.com/thailand-flag-image/
+Tuk tuk image is downloaded from : https://www.pexels.com/photo/black-and-yellow-mini-cooper-parked-on-sidewalk-7477935/ (Photo by Mark Amores from Pexels)
 
-Japan Flag is downloaded from : https://www.countryflags.com/japan-flag-image/
-
-Shouth Korea Flag is downloaded from : https://www.countryflags.com/south-korea-flag-image/
+Fuji Mountain is downloaded from : https://www.pexels.com/photo/red-and-gray-pagoda-temple-3408354/ (Photo by Tomáš Malík from Pexels)
