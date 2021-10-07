@@ -41,16 +41,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="nav navbar-nav mr-auto ms-3 me-3 mb-2 ">
             <li class="nav-item">
-              <a class="nav-link active ms-2 me-2" href="Menu.html">Menu</a>
+              <a class="nav-link active ms-2 me-2" href="/html/Menu.html">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active ms-2 me-2" href="Gallery.html">Gallery</a>
+              <a class="nav-link active ms-2 me-2" href="/html/Gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active ms-2 me-2" href="Branches.html">Branches</a>
+              <a class="nav-link active ms-2 me-2" href="/html/Branches.html">Branches</a>
             </li>
             <li class="nav-item d-flex justify-content-end">
-              <a class="nav-link active mt-1 ms-2 me-1 border border-dark " href="Reservation.html"><span>Book a Table</span></a>
+              <a class="nav-link active mt-1 ms-2 me-2 border border-dark " href="/html/Reservation.html"><span>Book a Table</span></a>
             </li>
           </ul>
         </div>
@@ -58,277 +58,94 @@
     </nav>
     <!-- NAVBAR -->
 
-    <!-- MENU LIST -->
-    <section> 
-      <div class="container-fluid justify-content-md-center"> 
-        <div class="row justify-content-center center-block"> 
-          <div class="col-sm-3 col-md-3 cold-lg-3 col-xl-3 justify-content-center center-block">
-            <div class="thaiflag text-center ">
-              <img src="/images/thaiflag.png" alt="thaiflag" class=" py-1 img-responsive rounded-circle align-middle flags ">
+    <!-- MENULIST -->
+    <section>
+      <div class="row justify-content-evenly px-3 mx-0">
+        <div class="col-sm-4 col-md-4 col-xl-4">
+          <div class="row align-items-center">
+            <div class="text-center my-5">
+              <img src="/images/thaiflag.png" alt="img-responsive" class="img-responsive flags">
             </div>
-            <div id="accordion">
-              <div class="card text-center">
-                <div class="card-header" id="starters">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <div class="col-sm-12 col-md-12 col-xl-12 align-items-center">
+              <div class="accordion accordion-flush align-items-center" id="accordionTailand">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                       Starters
                     </button>
-                  </h5>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionTailand">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
                 </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="starters" data-parent="#accordion">
-                  <div class="card-body">
-                    <ul class="list-group list-group-flash">  
-                      <li class="list-group-item">Lorem.</li>
-                      <li class="list-group-item">Lorem.</li>
-                      <li class="list-group-item">Lorem.</li>
-                    </ul>
-                  </div> 
-                </div>
-              </div> 
-
-              <div class="card text-center">
-                <div class="card-header" id="appetizer">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Appetizer
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Main Dishes
                     </button>
-                  </h5>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionTailand">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="appetizer" data-parent="#accordion">
-                  <div class="card-body">
-                    <ul class="list-group list-group-flash">  
-                      <li class="list-group-item">Lorem.</li>
-                      <li class="list-group-item">Lorem.</li>
-                      <li class="list-group-item">Lorem.</li>
-                    </ul> 
-                  </div> 
-                </div>
-              </div> 
-
-              <div class="card text-center">
-                <div class="card-header" id="maincourse">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Main Course
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Baverages
                     </button>
-                  </h5>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="maincourse" data-parent="#accordion">
-                  <div class="card-body">
-                    <ul class="list-group list-group-flash">  
-                      <li class="list-group-item">Lorem.</li>
-                      <li class="list-group-item">Lorem.</li>
-                      <li class="list-group-item">Lorem.</li>
-                    </ul> 
-                  </div> 
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionTailand">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
                 </div>
               </div>
-              
-              <div class="card text-center">
-                <div class="card-header" id="desserts">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      Desserts
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseFour" class="collapse" aria-labelledby="desserts" data-parent="#accordion">
-                  <div class="card-body">
-                    <ul class="list-group list-group-flash">  
-                      <li class="list-group-item">Lorem.</li>
-                      <li class="list-group-item">Lorem.</li>
-                      <li class="list-group-item">Lorem.</li>
-                    </ul>
-                  </div> 
-                </div>
-              </div>
-
-              <div class="card text-center">
-                <div class="card-header" id="drinks">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                      Drinks
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseFive" class="collapse" aria-labelledby="drinks" data-parent="#accordion">
-                  <div class="card-body">
-                    <ul class="list-group list-group-flash">  
-                      <li class="list-group-item">Lorem.</li>
-                      <li class="list-group-item">Lorem.</li>
-                      <li class="list-group-item">Lorem.</li>
-                    </ul>
-                  </div> 
-                </div>
-              </div> 
             </div>
           </div>
-          <div class="col-sm-3 cold-lg-3 col-xl-3 justify-content-center center-block">
-            <div class="jpflag text-center ">
-              <img src="/images/jpflag.png" alt="jpflag" class=" py-1 img-responsive rounded-circle align-middle flags">
+        </div> 
+        <div class="col-sm-4 col-md-4 col-xl-4">
+          <div class="row align-items-center">
+            <div class="text-center my-5">
+              <img src="/images/jpflag.png" alt="img-responsive" class="img-responsive flags">
             </div>
-            <div id="accordion">
-              <div class="card text-center">
-                <div class="card-header" id="starters">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <div class="col-sm-12 col-md-12 col-xl-12 align-items-center">
+              <div class="accordion accordion-flush align-items-center " id="accordionJapan">
+                <div class="accordion-item">
+                  <h2 class="accordion-header " id="flush-Japan1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseJapan1" aria-expanded="false" aria-controls="flush-collapseJapan1">
                       Starters
                     </button>
-                  </h5>
+                  </h2>
+                  <div id="flush-collapseJapan1" class="accordion-collapse collapsec show" aria-labelledby="flush-Japan1" data-bs-parent="#accordionJapan">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
                 </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="starters" data-parent="#accordion">
-                  <div class="card-body">
-
-                  </div> 
-                </div>
-              </div> 
-
-              <div class="card text-center">
-                <div class="card-header" id="hotbreak">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Appetizer
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-Japan2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseJapan2" aria-expanded="false" aria-controls="flush-collapseJapan2">
+                      Main Dishes
                     </button>
-                  </h5>
+                  </h2>
+                  <div id="flush-collapseJapan2" class="accordion-collapse collapse" aria-labelledby="flush-Japan2" data-bs-parent="#accordionJapan">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
                 </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="hotbreak" data-parent="#accordion">
-                  <div class="card-body">
-                    
-                  </div> 
-                </div>
-              </div> 
-
-              <div class="card text-center">
-                <div class="card-header" id="maincourse">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Main Course
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-Japan3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseJapan3" aria-expanded="false" aria-controls="flush-collapseJapan3">
+                      Beverages
                     </button>
-                  </h5>
-                </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="maincourse" data-parent="#accordion">
-                  <div class="card-body">
-                    
-                  </div> 
+                  </h2>
+                  <div id="flush-collapseJapan3" class="accordion-collapse collapse" aria-labelledby="flush-Japan3" data-bs-parent="#accordionJapan">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
                 </div>
               </div>
-              
-              <div class="card text-center">
-                <div class="card-header" id="desserts">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Desserts
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="desserts" data-parent="#accordion">
-                  <div class="card-body">
-                    
-                  </div> 
-                </div>
-              </div>
-
-              <div class="card text-center">
-                <div class="card-header" id="drinks">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Drinks
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="drinks" data-parent="#accordion">
-                  <div class="card-body">
-                    
-                  </div> 
-                </div>
-              </div> 
-            </div>
-          </div>
-          <div class="col-sm-3 cold-lg-3 col-xl-3 justify-content-center center-block">
-            <div class="skoreaflag text-center ">
-              <img src="/images/skoreaflag.png" alt="skoreaflag" class=" py-1 img-responsive rounded-circle align-middle flags">
-            </div>
-            <div id="accordion">
-              <div class="card text-center">
-                <div class="card-header" id="starters">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Starters
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="starters" data-parent="#accordion">
-                  <div class="card-body">
-
-                  </div> 
-                </div>
-              </div> 
-
-              <div class="card text-center">
-                <div class="card-header" id="hotbreak">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Appetizer
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="hotbreak" data-parent="#accordion">
-                  <div class="card-body">
-                    
-                  </div> 
-                </div>
-              </div> 
-
-              <div class="card text-center">
-                <div class="card-header" id="maincourse">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Main Course
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="maincourse" data-parent="#accordion">
-                  <div class="card-body">
-                    
-                  </div> 
-                </div>
-              </div>
-              
-              <div class="card text-center">
-                <div class="card-header" id="desserts">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Desserts
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="desserts" data-parent="#accordion">
-                  <div class="card-body">
-                    
-                  </div> 
-                </div>
-              </div>
-
-              <div class="card text-center">
-                <div class="card-header" id="drinks">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Drinks
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="drinks" data-parent="#accordion">
-                  <div class="card-body">
-                    
-                  </div> 
-                </div>
-              </div> 
-            </div>
+            </div>  
           </div>
         </div>
       </div>
     </section>
-    <!-- MENU LIST -->
+    <!-- MENULIST -->
 
     <!-- FOOTER -->
     <footer class="bg-dark text-white pt-3 pb-3">
