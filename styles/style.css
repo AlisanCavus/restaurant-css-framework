@@ -61,3 +61,14 @@
   font-family: 'Text Me One', sans-serif;
   font-weight: 400;
 }
+
+.border-dark {  
+  max-width: max-content;
+  border-radius: 10px;
+  border: 2px solid !important;
+  background-color: rgba(245, 247, 73, 0.5);
+}
+
+.bg-dark {  
+  background-color: rgba(86, 85, 84, 0.8) !important;
+}
