@@ -85,12 +85,6 @@ section {
   border-radius: 10px ;
 }
 
-.accordion-header { 
-  text-align: center !important;
-  background-color: transparent !important;
-  border: none !important;
-}
-
 .pricetag { 
   float:right;
   font-weight: bolder;
