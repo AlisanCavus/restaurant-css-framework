@@ -75,9 +75,11 @@
 }
 
 section {
-  height: 100vh !important;   
+  height: 100% !important;   
   background-image: linear-gradient(180deg, rgba(142, 66, 54, 1), rgba(245, 247, 73, 0.7), rgba(246, 245, 174, 0.5), rgba(46, 134, 171, 0.7), rgba(86, 85, 84, 1)) !important;
 }
+
+
 .flags{ 
   max-width: 50%;
   max-height: 50%;
