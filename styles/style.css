@@ -99,11 +99,13 @@ section {
  
 }
 
-.sbmbtn:hover { 
+.sbmbtn:hover ,.sbmbtn:active, .sbmbtn:visited .sbmbtn::after .sbmbtn::before { 
   background: transparent; 
   color: rgba(245, 247, 73, 0.8);
-  border: 3px solid rgba(86, 85, 84, 1);
+  border: 5px solid rgba(245, 247, 73, 0.8);
   transform: scale(1.5);
 }
+
+
 
   
