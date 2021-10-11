@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/bootstrap.css" />
+    <link href="styles/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,33 +16,31 @@
 
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-info ">
-      <a class="navbar-brand ms-5 me-5" href="index.html">
-        <img src="images/chopstick.png"  class="d-inline-block align-top" alt="" width="30" height="30">NomNom
-      </a>
-      <button class="navbar-toggler ms-5 me-5" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
-        <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html"><span class="sr-only"></span></a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="Menu.html">Menu <span class="sr-only"></span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="Gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Branches.html">Branches</a>
-          </li>
-          <li class="nav-item  text-center d-flex justify-content-end my-auto">
-            <a class="nav-link active border border-dark " href="Reservation.html"><span>Book a Table</span></a>
-          </li>
-        </ul>
-        
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="images/chopstick.png" width="30" height="30"> NomNom</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Branches.html">Branches</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Reservation.html">Reservation</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     <!-- NAVBAR -->
@@ -129,8 +127,6 @@
       </div>
     </footer>
     <!-- FOOTER -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
   </body>
 </html>
