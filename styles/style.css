@@ -91,4 +91,19 @@ section {
   font-weight: bolder;
 }
 
+.sbmbtn {
+  background: transparent; 
+  color: rgba(245, 247, 73, 0.8);
+  border-radius: 30px;
+  border: 2px solid rgba(245, 247, 73, 0.8);
+ 
+}
 
+.sbmbtn:hover { 
+  background: transparent; 
+  color: rgba(245, 247, 73, 0.8);
+  border: 3px solid rgba(86, 85, 84, 1);
+  transform: scale(1.5);
+}
+
+  

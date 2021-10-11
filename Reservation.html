@@ -45,14 +45,15 @@
     </nav>
     <!-- NAVBAR -->
 
-    <div class="position-relative justify-content-center">
+    <div class="position-relative ">
       <section>
         <div class="container-fluid">
-          <div>
+          <div class="row">
             <div class="col-sm-12 col-xl-6 p-5">
               <form>
                 <div>
-                  <select class="form-select" aria-label="Select a Date">
+                  <label for="Select a Date" class="form-label bg-transparent "> Please select a date:</label>
+                  <select class="form-select bg-transparent" aria-label="Select a Date" >
                     <option selected>Select a Date</option>
                     <option value="1">11/10/2021</option>
                     <option value="2">12/10/2021</option>
@@ -67,13 +68,73 @@
             <div class="col-sm-12 col-xl-6 p-5">
               <form>
                 <div>
-                  <select class="form-select" aria-label="Number of Person" >
-                    <option value=""></option>
+                  <label for="Number of Person" class="form-label bg-transparent "> Please select the number of person:</label>
+                  <select class="form-select bg-transparent" aria-label="Number of Person" >
+                    <option value=""> Number of Person</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option> 
+                    <option value="6">More ... (Please mention at the comment section.)</option> 
                   </select>
                 </div>
               </form>
+            </div>  
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12 col-xl-6 p-5">
+              <form>
+                <div>
+                  <label for="nameSurname" class="form-label bg-transparent"> Name Surname:</label>
+                  <input type="text" name="" id="nameSurname" class="form-control bg-transparent" placeholder="Exmp Examples">  
+                </div>
+              </form>
             </div>
-            
+            <div class="col-sm-12 col-xl-6 p-5">
+              <form>
+                <div>
+                  <label for="Number of Person" class="form-label bg-transparent "> Please select the Branch:</label>
+                  <select class="form-select bg-transparent" aria-label="Select the Branch" >
+                    <option value=""> Our Branches</option>
+                    <option value="1">NomNom Brussels</option>
+                    <option value="2">NomNom Antwerp</option>
+                  </select> 
+                </div>
+              </form>
+            </div>   
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12 col-xl-6 p-5">
+              <form>
+                <div class="m-1">
+                  <label for="email" class="form-label bg-transparent"> E-mail:</label>
+                  <input type="email" name="" id="email" class="form-control bg-transparent" placeholder="exmp@example.com">  
+                </div>
+                <div class="m-1">
+                  <label for="phonenumber" class="form-label bg-transparent"> Phone Number:</label>
+                  <input type="tel" name="" id="phonenumber" class="form-control bg-transparent" placeholder="+32 000 00 00 00">  
+                </div>
+              </form>
+            </div>
+            <div class="col-sm-12 col-xl-6 p-5">
+              <form>
+                <div>
+                  <label for="comment" class="form-label bg-transparent"> Comment:</label>
+                  <textarea type="text" id="comment" class="form-control bg-transparent" rows="4" placeholder="Leave a comment here"> 
+                  </textarea>
+                </div>
+              </form>
+            </div>   
+          </div>
+
+          <div class="row d-flex justify-content-center">
+            <div class="col-sm-3 col-xl-6  d-flex justify-content-center ">
+              <button type="submit" class="btn btn-primary align-center sbmbtn ">BOOK A TABLE NOW</button>
+            </div>   
           </div>
         </div>
       </section>
@@ -81,7 +142,7 @@
   
     
     <!-- FOOTER -->
-    <footer class="bg-dark text-white pt-3 pb-3">
+    <footer class="bg-dark text-white pt-3 pb-3 ">
       <div class="container-fluid text-center text-md-center">
         <div class="row text-center d-flex justify-content-evenly text-sm-center">
           <div class="col-sm-2 col-lg-2 col-xl-2 mx-auto my-auto">
