@@ -9,6 +9,7 @@
 
 .bg-info {
     background-color: #f24236 !important;
+    font-weight: bold;
 }
 
 .nav-item { 
