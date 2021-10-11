@@ -108,8 +108,9 @@ section {
 
 
 .fotos {  
-  width: 40em;
+  width: 60em;
   height: 35em;
+  object-fit: cover;
 }
 
 
