@@ -1,5 +1,24 @@
 # NomNom-Bootstrap
 
+# https://alisancavus.github.io/restaurant-css-framework/
+--------
+
+
+
+
+
+### Hi there,
+
+##### Let me introduce with NomNom. NomNom is an Asian Restaurant. It has 2 seperate cuisine. Japanese cuisine and Thai Cuisine. 
+##### All project is a made up. there is no such place like that.
+At first planned the home page and some general styling like background. 
+
+
+
+
+
+
+--------
 icon is downloaded from: https://www.flaticon.com/free-icon/chopsticks_1249441?term=chopsticks&page=1&position=15&page=1&position=15&related_id=1249441&origin=tag
 
 chopbowl image is downloaded from: https://www.pexels.com/photo/appetizer-bowl-chili-close-up-286283/
