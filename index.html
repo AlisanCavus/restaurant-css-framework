@@ -16,7 +16,7 @@
 
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-xl sticky-top navbar-light bg-info fw-bolder">
+    <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-info fw-bolder">
       <div class="container-fluid">
         <a class="navbar-brand ms-1 me-1 nav-link active" aria-current="page" href="index.html">
           <img
@@ -28,22 +28,29 @@
           />NomNom
         </a>
         <button
-          class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarContext" aria-controls="navBarContext" aria-expanded="false" aria-label="Toggle navigation">
+          class="navbar-toggler collapsed ms-1 me-1"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end my-auto" id="navBarContext">
+        <div class="collapse navbar-collapse justify-content-end my-auto" id="navbarSupportedContent">
           <ul class="nav navbar-nav mr-auto ms-3 me-3  ">
             <li class="nav-item">
-              <a class="nav-link text-center active ms-3 me-2 my-auto" href="Menu.html">Menu</a>
+              <a class="nav-link text-end active ms-3 me-2 my-auto" href="Menu.html">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-center active ms-2 me-2 my-auto" href="Gallery.html">Gallery</a>
+              <a class="nav-link text-end active ms-2 me-2 my-auto" href="Gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-center active ms-2 me-2 my-auto" href="Branches.html">Branches</a>
+              <a class="nav-link text-end active ms-2 me-2 my-auto" href="Branches.html">Branches</a>
             </li>
-            <li class="nav-item  text-center d-flex justify-content-center my-auto">
-              <a class="nav-link active ms-2 me-2 border border-dark " href="Reservation.html"><span>Book a Table</span></a>
+            <li class="nav-item  text-end d-flex justify-content-end my-auto">
+              <a class="nav-link active border border-dark " href="Reservation.html"><span>Book a Table</span></a>
             </li>
           </ul>
         </div>
@@ -133,6 +140,7 @@
       </div>
     </footer>
     <!-- FOOTER -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
   </body>
 </html>
