@@ -9,9 +9,24 @@
 
 ### Hi there,
 
-##### Let me introduce with NomNom. NomNom is an Asian Restaurant. It has 2 seperate cuisine. Japanese cuisine and Thai Cuisine. 
-##### All project is a made up. there is no such place like that.
-At first planned the home page and some general styling like background. 
+##### Let me introduce with NomNom. NomNom is an Asian Restaurant. It has 2 seperated cuisine. Japanese cuisine and Thai Cuisine. We have two Branches one is in Brussels the other one is in Antwerp. 
+##### Whole project is a made up. There is no such place like that.
+
+---------
+At first planned the home page and some general styling like background, fonts, colors, etc. At that point I made a navbar that took a hole day and a failure (It was okay only in local view but when it comes to push that stuff in github pages it was a disaster.) So, after that I need a footer and Jumbotron for the home page. That things too much time because I need to make it fancy to be able to attract potential customers. It gave me pain and joy at very same time.
+After that I wanted to use accordion menu. In branch section you can reach out the branch informations (locations opening hours etc.) In Reservation page you can make a reservation as expected. You can check the photos of restaurant in Gallery with paginations. We have 2 branches so there is seperate gallery for each branch. Honestly It looks good on large devices but I have to improve these galleries in mobile view. 
+
+I had 4 days to complete it. It looks good for now but needs improvements as obvious. I wish you will enjoy. 
+
+
+-------
+
+
+
+
+##### Credits
+
+
 
 
 
@@ -70,3 +85,8 @@ brussels 1 is dwonloaded from : https://www.pexels.com/photo/plate-with-tasty-as
 
 brussels 1 is downloaded from : https://www.pexels.com/photo/confident-asian-woman-working-in-cozy-cafeteria-in-evening-4473503/ (Photo by Ketut Subiyanto from Pexels)
 
+------- 
+
+
+
+##### See you again  at the next one.
