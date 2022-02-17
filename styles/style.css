@@ -23,7 +23,7 @@
 .jumbotron {
     position: relative;
     overflow: hidden;
-    height: min-content;
+    min-height: 100vh;
     background-image: linear-gradient(180deg, rgba(242,66,54,0.5), rgba(245,247,73,0.3)) !important; 
 }
 
@@ -113,6 +113,10 @@ section {
   height: 500px;
   max-height: 100%;
   object-fit: cover;
+}
+
+.page-link {
+  background:transparent !important;
 }
 
 
